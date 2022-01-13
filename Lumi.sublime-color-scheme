@@ -1,0 +1,52 @@
+{
+    "name":   "Lumi",
+    "author": "Szymon Madeja",
+
+    "variables": {
+        "accent_one": "#7c0044",
+        "accent_two": "#07444b",
+        "background": "#ffffff",
+        "background_darker": "#efefef",
+        "foreground": "#3d3d3d",
+        "foreground_lighter": "#878787"
+    },
+
+    "globals": {
+        "accent": "var(accent_one)",
+        "background": "var(background)",
+        "block_caret": "var(background_darker)",
+        "block_caret_border": "var(foreground_lighter)",
+        "block_caret_underline": "var(foreground_lighter)",
+        "brackets_foreground": "var(foreground_lighter)",
+        "caret": "var(foreground_lighter)",
+        "find_highlight": "var(background_darker)",
+        "fold_marker": "var(background_darker)",
+        "foreground": "var(foreground)",
+        "gutter": "var(background)",
+        "gutter_foreground": "var(foreground_lighter)",
+        "gutter_foreground_highlight": "var(accent_one)",
+        "invisibles": "var(foreground_lighter)",
+        "inactive_selection_border": "var(foreground_lighter)",
+        "line_highlight": "var(background_darker)",
+        "selection": "var(background_darker)",
+        "selection_border": "var(foreground_lighter)"
+    },
+
+    "rules": [{
+        "name": "Comments",
+        "scope": "comment, punctuation.definition.comment, invalid comment",
+        "foreground": "var(foreground_lighter)"
+    }, {
+        "name": "Strings",
+        "scope": "string, string punctuation",
+        "foreground": "var(accent_two)"
+    }, {
+        "name": "Constants",
+        "scope": "constant, punctuation.definition.constant",
+        "foreground": "var(accent_one)"
+    }, {
+        "name": "Definitions",
+        "scope": "entity.name - entity.name.tag",
+        "foreground": "var(accent_one)"
+    }]
+}

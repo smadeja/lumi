@@ -2,7 +2,7 @@
 
 Minimalistic Sublime Text colour scheme with constant luminance
 
-![Screenshot](ruby_example.png)
+<img width="479" alt="ruby_example" src="https://user-images.githubusercontent.com/3882931/149409144-4e73d7b1-0d97-43bb-864e-81e58f7f2ce6.png">
 
 ## Motivation
 

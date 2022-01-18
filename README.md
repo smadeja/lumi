@@ -16,6 +16,8 @@ which I have based this on
 
 ## Installation
 
-I'll be submitting Lumi to Package Control soon. For now it can be installed by
-manually copying `Lumi.sublime-color-scheme` into the Sublime Text's package
-directory
+The simplest way to install Lumi is through Package Control
+
+1. Open the Command Palette (`Tools` → `Command Palette…`)
+2. Run `Package Control: Install Package`
+3. Select `Lumi` from the list of packages
